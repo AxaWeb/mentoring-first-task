@@ -1,12 +1,15 @@
-a, input { font-family: "Inter", sans-serif; text-decoration: none; font-weight: 600 }
-input { font-weight: normal }
-header > div { width: 100%; padding: 0 60px }
+header > div { 
+   width: 100%; 
+   padding: 0 60px 
+}
 .gray {
    background: #4B565E;
+
    a { color: #fff }
  }
 .orange {
    background: #F0BA4E;
+
    a { color: #3C3C3B }
    .loc { color: #fff }
 }
@@ -16,19 +19,40 @@ header > div { width: 100%; padding: 0 60px }
    display: flex;
    justify-content: space-between;
    align-items: center;
-   * { display: flex; align-items: center }
+
+   * { 
+      display: flex; 
+      align-items: center 
+   }
 }
 .top1 { 
    height: 80px;
+
    nav, div { gap: 40px } 
 }
 .top2 { 
    height: 48px;
+
    div { gap: 25px }
 }
-.cart { border: 1px solid #F0BA4E; border-radius: 20px; padding: 5px 10px; gap: 5px; min-width: 120px; justify-content: center }
+.cart { 
+   border: 1px solid #F0BA4E; 
+   border-radius: 20px; 
+   padding: 5px 10px; 
+   gap: 5px; 
+   min-width: 120px; 
+   justify-content: center 
+}
 .search {
-   width: 400px; border-bottom: solid 1px #4B565E;
-   input { background: none; border: none; width: 100% }
-   input:focus-visible { border: none; outline: none }
+   width: 400px; 
+   border-bottom: solid 1px #4B565E;
+
+   input { 
+      background: none; 
+      border: none; width: 100% 
+   }
+   input:focus-visible { 
+      border: none; 
+      outline: none 
+   }
 }
